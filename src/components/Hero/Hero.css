@@ -16,6 +16,15 @@
     padding-top:8rem;
 }
 
+.h-arrow{
+    position: absolute;
+    top:5rem;
+    width:100%;
+    max-width:60rem;
+    z-index: 0;
+    opacity: 0.1;
+}
+
 .h-left{
     flex:1;
     position: relative;

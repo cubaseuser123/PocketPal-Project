@@ -122,7 +122,7 @@ export const testimonialsData = [
   },
   {
     comment:
-      "I have been working with ZAINKEEPSCODE on our fundraising strategies. They understands the in depth strategies of Venture Capital and early stage fund raising/company",
+      "I have been working with on our fundraising strategies. They understands the in depth strategies of Venture Capital and early stage fund raising/company",
     name: "Cheryl R. Weiss",
     profession: "Founder, Dubrow Cafeteria",
   },
@@ -134,7 +134,7 @@ export const testimonialsData = [
   },
   {
     comment:
-      "BlueVenture is the premier setting for entrepreneurs and investors alike to exchange ideas, and network. As an entrepreneur, I can rely on the BlueVenture to bring top caliber speakers, entrepreneurs and investors",
+      "PocketPal is the premier setting for entrepreneurs and investors alike to exchange ideas, and network. As an entrepreneur, I can rely on the BlueVenture to bring top caliber speakers, entrepreneurs and investors",
     name: "Jennifer Dubois",
     profession: "Manager, China Coast",
   },

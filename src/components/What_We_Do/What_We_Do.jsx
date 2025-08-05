@@ -2,6 +2,7 @@ import React from 'react'
 import './What_We_Do.css'
 import { features } from '@/src/utils/data';
 import Image from 'next/image';
+import {motion} from 'framer-motion';
 const What_We_Do = () =>{
     return(
         <div className="wwd-wrapper">
@@ -14,8 +15,14 @@ const What_We_Do = () =>{
                     </div>
                     <div className="wwd-blocks">
                         <div className="wwd-block">
-                            <span className='sec-title'>Expense Tracker</span>
-                            <span className='text'>Our Smart expense tracker lets you set a saving goal and save accoardingly</span>
+                            <motion.span
+                            initial="offscreen"
+                            whileInView={"onscreen"}
+                            className='sec-title'>Expense Tracker</motion.span>
+                            <motion.span
+                            initial="offscreen"
+                            whileInView={"onscreen"}
+                             className='text'>Our Smart expense tracker lets you set a saving goal and save accoardingly</motion.span>
                             <div className="block-features">
                                 {
                                     features.slice(0,3).map((feature,i)=>(

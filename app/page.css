@@ -39,13 +39,38 @@
     line-height: 1.8rem;
 }
 
-.join-button{
-    padding:1rem;
+.join-button {
+    padding: 1rem;
     background-color: black;
-    color:white;
+    color: white;
     border-radius: 1.7rem;
-    cursor:pointer;
-    width:50%;
+    cursor: pointer;
+    width: 50%;
     text-align: center;
-}
+    position: relative;
+    overflow: hidden;
+    transition: color 0.4s ease;
+    z-index: 0;
+  }
+  
+  .join-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: white; /* or any color you want */
+    z-index: -1;
+    transition: width 0.4s ease;
+  }
+  
+  .join-button:hover::before {
+    width: 100%;
+  }
+  
+  .join-button:hover {
+    color: black; /* contrast with hover bg */
+  }
+  
 

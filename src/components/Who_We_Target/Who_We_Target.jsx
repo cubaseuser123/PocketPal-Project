@@ -9,7 +9,7 @@ const Who_We_Target = ()=>{
                     <div className="wwi-left">
                         <div className="wwi-head">
                             <span className='tag'>Who We Target</span>
-                            <span className='title'>Lorem ipsum dolor</span>
+                            <span className='title'>The Gen Z</span>
                         </div>
                         <div className="wwi-features">
                             {
