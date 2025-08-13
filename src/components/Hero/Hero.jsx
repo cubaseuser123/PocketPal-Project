@@ -91,7 +91,7 @@ const Hero= () =>{
                         <div className="h-desc">
                             PocketPal is a fun expense tracker and subscription manager for the youth!
                         </div>
-                        <span className='join-button'>Get to the subscription tracker</span>
+                        <a href="https://pocketpal-dashboard-kmux.vercel.app/" className='join-button'>Get to the subscription tracker</a>
                     </div>
                 </div>
             </div>
